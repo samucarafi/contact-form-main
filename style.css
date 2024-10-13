@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Karla", sans-serif;
 }
 body{
     background-color:rgb(220, 238, 220);
@@ -30,8 +31,9 @@ label{
 }
 input {
     margin: 10px 0px;
-    padding: 15px 0px;
+    padding: 15px 15px;
     border-radius: 10px;
+    font-size: 1rem;
 }
 .boxRadio{
     background-color: white;
@@ -59,8 +61,9 @@ input {
     flex-direction: column;
 }
 .MSG textarea{
-    padding-bottom: 130px ;
-}
+    padding: 15px 0px 130px 15px;
+    font-size: 1rem;
+ }
 .check{
     display: flex;
     align-items: center;

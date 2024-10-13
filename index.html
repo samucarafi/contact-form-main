@@ -7,7 +7,10 @@
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Contact form</title>
 </head>
 
@@ -18,20 +21,20 @@
     <h1>Contact Us</h1>
     <div class="collums">
       <div class="inputTxt">
-        <label for="fName">First Name</label>
-        <input required type="text" id="fName">
+        <label for="fName">First Name *</label>
+        <input required type="text" id="fName" autofocus >
       </div>
       <div class="inputTxt">
-        <label for="fLName">Last Name</label>
+        <label for="fLName">Last Name *</label>
         <input required type="text" id="fLName">
       </div>
     </div>
     <div class="inputTxt">
-      <label for="email">Email Address</label>
-      <input required type="email" id="email">
+      <label for="email">Email Address *</label>
+      <input required type="email" id="email" placeholder="email@exemplo.com">
     </div>
     <div>
-      <label>Query Type</label>
+      <label>Query Type *</label>
       <div class="collums">
         <div class="boxRadio">
           <input type="radio" name="radio" id="genReq">
@@ -45,12 +48,12 @@
       </div>
     </div>
     <div class="MSG">
-      <label for="MSG">Message</label>
+      <label for="MSG">Message *</label>
       <textarea type="text" id="MSG"></textarea>
     </div>
     <div class="check">
       <input type="checkbox" id="check">
-      <label for="check"> I consent to being contacted by the team</label>
+      <label for="check"> I consent to being contacted by the team *</label>
     </div>
     <button type="submit">Submit</button>
 
